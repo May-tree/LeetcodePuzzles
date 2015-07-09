@@ -1,7 +1,9 @@
+package aces;
+
 /**
- * Created by Mingyuan Cui on 7/8/15.
+ * Created by NicolasTsui on 7/10/15.
  */
-public class Manacher {
+public class Manacher_longestPalindrome {
     public static String standardise(String s) {
         StringBuilder sb = new StringBuilder();
         sb.append('#');

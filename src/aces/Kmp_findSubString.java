@@ -1,8 +1,9 @@
+package aces;
+
 /**
- * Created by Mingyuan Cui on 7/6/15.
- * Kmp algorithm
+ * Created by NicolasTsui on 7/10/15.
  */
-public class Kmp {
+public class Kmp_findSubString {
     public static int[] get_next(String pattern) {
         int[] next = new int[pattern.length()];
         next[0] = -1;
