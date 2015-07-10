@@ -3,13 +3,6 @@
  */
 import java.util.*;
 public class MergeTwoSortedList {
-    public static class ListNode{
-        int val;
-        ListNode next;
-        public ListNode(int val){
-            this.val=val;
-        }
-    }
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode ptr1=l1;
         ListNode ptr2=l2;

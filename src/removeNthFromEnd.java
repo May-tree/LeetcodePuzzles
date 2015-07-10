@@ -2,14 +2,6 @@
  * Created by NicolasTsui on 7/9/15.
  */
 public class RemoveNthFromEnd {
-    public static class ListNode{
-        int val;
-        ListNode next;
-        public ListNode(int val){
-            this.val=val;
-            next=null;
-        }
-    }
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode zero=new ListNode(0);
         zero.next=head;

@@ -2,14 +2,6 @@
  * Created by NicolasTsui on 6/10/15.
  */
 public class AddTwoNumbers {
-    public static class ListNode {
-        int val = 0;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         boolean extra = false;
         ListNode l0 = new ListNode(0);
