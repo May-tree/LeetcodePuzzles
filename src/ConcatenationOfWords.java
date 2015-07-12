@@ -15,6 +15,8 @@ public class ConcatenationOfWords {
         if (len * num > S.length()) {
             return res;
         }
+
+        //histogram of words in L
         HashMap<String, Integer> dic = new HashMap<>();
         for (String s : L) {
             if (dic.containsKey(s)) {
@@ -23,6 +25,8 @@ public class ConcatenationOfWords {
                 dic.put(s, 1);
             }
         }
+
+        //the word that starts from i in S
         String[] sDic = new String[S.length() - len + 1];
         for (int i = 0; i < sDic.length; i++) {
             String sub = S.substring(i, i + len);
@@ -33,10 +37,15 @@ public class ConcatenationOfWords {
             }
         }
 
+        //loop in order of 0,0+len,...,1,1+len,...len-1,len-1+len...therefore it is O(n)
         for (int i = 0; i < len; i++) {
-            HashMap<String, Integer> tempDic = new HashMap<>();
+
+            //start of concatenation
             int start = i;
+            //number of words found
             int found = 0;
+            //dynamic word histogram of words in substring(start,j);
+            HashMap<String, Integer> tempDic = new HashMap<>();
             for (int j = i; j <= S.length() - len; j = j + len) {
                 String word = sDic[j];
                 if (word.equals("")) {
@@ -52,13 +61,14 @@ public class ConcatenationOfWords {
                     }
                     found++;
                 }
+                //if we over-count a word, delete the first word in front. Also delete the words before that.
                 if (tempDic.get(word) > dic.get(word)) {
                     while (!sDic[start].equals(word)) {
                         tempDic.put(sDic[start], tempDic.get(sDic[start]) - 1);
                         start += len;
                         found--;
                     }
-                    tempDic.put(sDic[start], tempDic.get(sDic[start]) - 1);
+                    tempDic.put(word, tempDic.get(word) - 1);
                     start += len;
                     found--;
                 }
