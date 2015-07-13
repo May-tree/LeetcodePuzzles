@@ -1,5 +1,12 @@
 /**
  * Created by NicolasTsui on 7/11/15.
+ *
+ *
+ * Make a histogram of words in L, and dynamically maintain a histogram window of length 'L.length*L[0].length()'
+ * the condition is
+ * 1: num of words find in window is equal to num of word in histogram of L
+ * 2: there is not any word that has larger frequency than that of the word in histogram of L
+ *    if 2 is violated, than change the left boundary of the window, until this problematic word is removed once.
  */
 
 import java.util.*;

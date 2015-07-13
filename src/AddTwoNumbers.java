@@ -1,5 +1,8 @@
 /**
  * Created by NicolasTsui on 6/10/15.
+ *
+ * Nothing special, just need an indicator of 'sum>=10'.
+ *
  */
 public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

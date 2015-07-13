@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7d20ff-c901-409d-b3de-d00693b7a97d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchRange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConcatenationOfWords.java" afterPath="$PROJECT_DIR$/src/ConcatenationOfWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContainWithMostWater.java" afterPath="$PROJECT_DIR$/src/ContainWithMostWater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,6 +38,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ConcatenationOfWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConcatenationOfWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainWithMostWater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ContainWithMostWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.30922693">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SearchRange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchRange.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.037406486">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -86,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/TwoSumSolve.java" />
         <option value="$PROJECT_DIR$/src/FindKthFromSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/IsPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/ContainWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/ThreeSumClosest.java" />
@@ -107,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/MergeSortedKLists.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoSortedList.java" />
-        <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/SwapPairInListNode.java" />
         <option value="$PROJECT_DIR$/src/playground/pos.java" />
         <option value="$PROJECT_DIR$/src/pos.java" />
@@ -121,12 +143,14 @@
         <option value="$PROJECT_DIR$/src/DivideTwoNums.java" />
         <option value="$PROJECT_DIR$/src/MininumWindowSubString.java" />
         <option value="$PROJECT_DIR$/src/playground/PlayGround.java" />
-        <option value="$PROJECT_DIR$/src/ConcatenationOfWords.java" />
         <option value="$PROJECT_DIR$/src/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/LongestParenthese.java" />
         <option value="$PROJECT_DIR$/src/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/SearchRange.java" />
+        <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/ConcatenationOfWords.java" />
+        <option value="$PROJECT_DIR$/src/ContainWithMostWater.java" />
       </list>
     </option>
   </component>
@@ -583,12 +607,12 @@
       <workItem from="1436406712008" duration="4053000" />
       <workItem from="1436449890374" duration="11367000" />
       <workItem from="1436531298204" duration="5743000" />
-      <workItem from="1436698788480" duration="7155000" />
+      <workItem from="1436698788480" duration="7776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39963000" />
+    <option name="totallyTimeSpent" value="40584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -828,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContainWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6672158">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32125205">
@@ -1048,16 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConcatenationOfWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1221945">
-          <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37406483">
@@ -1102,8 +1109,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037406486">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConcatenationOfWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContainWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.30922693">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
