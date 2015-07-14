@@ -1,7 +1,7 @@
 /**
  * Created by NicolasTsui on 7/9/15.
  * two pointers
- * 
+ *
  */
 public class ContainWithMostWater {
     public static int maxArea(int[] height){
