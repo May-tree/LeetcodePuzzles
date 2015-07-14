@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7d20ff-c901-409d-b3de-d00693b7a97d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CombinationSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CombinationSumII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CountAndSay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithm/playground/PlayGround.class" afterPath="$PROJECT_DIR$/out/production/algorithm/playground/PlayGround.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithm/SudokuSolver.class" afterPath="$PROJECT_DIR$/out/production/algorithm/SudokuSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/playground/PlayGround.java" afterPath="$PROJECT_DIR$/src/playground/PlayGround.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FirstMissingPositive.java" />
     </list>
     <ignored path="algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,14 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CombinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50576603">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FirstMissingPositive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56836903">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,16 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchRange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SearchRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Kmp.java" />
         <option value="$PROJECT_DIR$/src/TwoSumSolve.java" />
         <option value="$PROJECT_DIR$/src/FindKthFromSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/IsPalindrome.java" />
@@ -206,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/playground/PlayGround.java" />
         <option value="$PROJECT_DIR$/src/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/CombinationSumII.java" />
+        <option value="$PROJECT_DIR$/src/FirstMissingPositive.java" />
       </list>
     </option>
   </component>
@@ -663,12 +657,12 @@
       <workItem from="1436449890374" duration="11367000" />
       <workItem from="1436531298204" duration="5743000" />
       <workItem from="1436698788480" duration="14385000" />
-      <workItem from="1436847559414" duration="1996000" />
+      <workItem from="1436847559414" duration="2322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49189000" />
+    <option name="totallyTimeSpent" value="49515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -808,13 +802,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1173,11 +1160,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50576603">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56836903">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
