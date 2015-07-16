@@ -40,27 +40,7 @@ public class PlayGround {
     }
 
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int M=sc.nextInt();
-        int N=sc.nextInt();
-        int T=sc.nextInt();
-        int[][] arr=new int[M][N];
-        for(int i=0;i<M;i++){
-            for(int j=0;j<N;j++){
-                arr[i][j]=sc.nextInt();
-            }
-        }
-        int[][] arr2;
-        if(T==0){
-            arr2=horizontal(arr);
-        }else{
-            arr2=vertical(arr);
-        }
-        for(int i=0;i<arr2.length;i++){
-            for(int j=0;j<arr2[0].length;j++){
-                System.out.print(arr2[i][j]+" ");
-            }
-            System.out.println();
-        }
+        String s="yo"+"0";
+        System.out.println(s);
     }
 }
