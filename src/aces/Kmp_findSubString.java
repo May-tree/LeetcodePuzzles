@@ -40,6 +40,8 @@ public class Kmp_findSubString {
     }
 
     public static void main(String[] args) {
+        int a=1;
+
         String str = "ABEDEABEFABEF";
         String pattern = "ABEF";
         System.out.println(match(str, pattern));
